@@ -1,0 +1,82 @@
+.productContainer {
+    width: 100%;
+}
+
+.productContainer h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.productContainer h5 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.productWrapper {
+    max-width: 500px;
+    height: 550px;
+    background-color: black;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 15px solid gray;
+}
+
+.productWrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    margin: auto;
+
+}
+
+
+.productWrapper label {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: darkgray;
+}
+
+.productWrapper input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.productWrapper input::placeholder {
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+}
+
+.productWrapper textarea {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.productWrapper textarea::placeholder {
+    font-size: 20px;
+}
+
+.productWrapper button {
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.productWrapper button:hover{
+    background-color: white;
+    color: black;
+}
+
